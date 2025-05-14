@@ -43,5 +43,9 @@
                 {{ __('Log in') }}
             </x-primary-button>
         </div>
+        <p class="mt-4 text-center">
+    アカウントをお持ちでない方は、
+    <a href="{{ route('register') }}" class="text-blue-500 underline">新規登録はこちら</a>
+</p>
     </form>
 </x-guest-layout>

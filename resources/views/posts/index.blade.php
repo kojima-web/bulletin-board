@@ -5,8 +5,8 @@
     <input type="text" name="keyword" placeholder="キーワードで検索" value="{{ request('keyword') }}">
     <button type="submit">検索</button>
 </form>
-@if($posts->isEmpty())
-    <p>該当する投稿はありません。</p>
+@if ($posts->isEmpty())
+    <p>検索結果は0件です。</p>
 @endif
     <h1>投稿一覧</h1>
 
